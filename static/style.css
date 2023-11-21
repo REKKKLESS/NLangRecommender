@@ -1,0 +1,57 @@
+/* Reset some default styles */
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the content area */
+.content {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+#language_form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the result display */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
